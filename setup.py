@@ -9,7 +9,7 @@ setup(
     description = 'Allows you to interface Python and zepto crudely',
     author = "Veit Heller",
     author_email = "veit@veitheller.de",
-    version = "0.0.2",
+    version = "0.0.3",
     long_description = long_description,
     url = "https://github.com/hellerve/pyzepto",
     packages = ['pyzepto',],

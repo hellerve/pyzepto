@@ -1,5 +1,5 @@
 pyzepto
-======
+=======
 
 A crude way of interfacing zepto and Python.
 
@@ -14,6 +14,7 @@ Installation
 ============
 
 ::
+
   pip install pyzepto
 
 
@@ -27,6 +28,7 @@ takes a string of zepto code and evaluates it, returning the return
 value as a string.
 
 .. code-block:: python
+
   from pyzepto import zepto
 
   zepto("(+ 1 2 3)") # => "6"
