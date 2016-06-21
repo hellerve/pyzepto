@@ -4,6 +4,7 @@ import imp
 import subprocess
 
 def zepto(code):
+    """Takes zepto code as a string and returns what it evaluates to."""
     code = code[-1] if code.endswith("\n") else code
     code = "(begin {})".format(code)
     ret = subprocess.check_output(["zepto", "-s", code]).decode("utf-8")
